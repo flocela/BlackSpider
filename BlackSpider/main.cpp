@@ -6,11 +6,15 @@
 #include <glm/vec4.hpp>
 #include <glm/mat4x4.hpp>
 
+#include <chrono>
+#include <thread>
+
 #include <iostream>
 
 int main()
 {
-
+    std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+    
     glfwInit();
     glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
     GLFWwindow* window = glfwCreateWindow(800, 600, "Vulkan window", nullptr, nullptr);

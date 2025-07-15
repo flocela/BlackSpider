@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "AAFF9B7E-DEBF-4C53-90F9-F160B6124ABF",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:BlackSpider.xcodeproj",
+        "identifier" : "5CE1229D2E0DC51600705E21",
+        "name" : "BlackSpiderTests"
+      }
+    }
+  ],
+  "version" : 1
+}
